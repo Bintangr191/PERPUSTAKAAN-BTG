@@ -45,21 +45,16 @@
                 @csrf
                 <button type="submit" class="text-sm text-red-600 hover:underline">Logout</button>
             </form>
-                    <! -- togle -->
-        {{-- <button id="toggleDark" class="px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded">
-             Toggle Mode
-        </button> --}}
-<!-- Toggle Dark Mode -->
-<button id="toggleDark"
-    class="flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-medium 
-           bg-gray-200 text-gray-800 hover:bg-gray-300 
-           dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600 
-           transition-colors duration-200">
-    <i id="darkIcon" class="fa-solid fa-sun hidden dark:inline"></i>
-    <i id="lightIcon" class="fa-solid fa-moon dark:hidden"></i>
-    Mode
-</button>
-
+            <!-- Toggle Dark Mode -->
+            <button id="toggleDark"
+                class="flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-medium 
+                       bg-gray-200 text-gray-800 hover:bg-gray-300 
+                       dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600 
+                       transition-colors duration-200">
+                <i id="darkIcon" class="fa-solid fa-sun hidden dark:inline"></i>
+                <i id="lightIcon" class="fa-solid fa-moon dark:hidden"></i>
+                Mode
+            </button>
         </div>
     </div>
 </nav>
